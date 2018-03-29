@@ -97,14 +97,14 @@ var latestId = 0;
 var uis = angular.module('ui.select', [])
 
 .constant('uiSelectConfig', {
-  theme: 'bootstrap',
+  theme: 'sislotte',
   searchEnabled: true,
   sortable: false,
   placeholder: '', // Empty by default, like HTML tag <select>
   refreshDelay: 1000, // In milliseconds
   closeOnSelect: true,
   skipFocusser: false,
-  dropdownPosition: 'auto',
+  dropdownPosition: 'down',
   removeSelected: true,
   resetSearchInput: true,
   generateId: function() {
